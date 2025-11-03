@@ -1,0 +1,15 @@
+# LoCoMo Benchmark Requirements
+# Dependencies required to run the Backboard LoCoMo benchmark evaluation
+
+# Async HTTP client for API calls
+httpx>=0.24.0
+
+# OpenAI SDK for LLM judge evaluation
+openai>=1.0.0
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# Numerical operations (used for potential statistical calculations)
+numpy>=1.24.0
+
